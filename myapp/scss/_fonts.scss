@@ -1,0 +1,6 @@
+@import "_mixins/font-face";
+
+@include font-face("SegoeUI", "../fonts/SegoeUIBold/SegoeUIBold", 800);
+@include font-face("SegoeUI", "../fonts/SegoeUISemiBold/SegoeUISemiBold", 600);
+@include font-face("SegoeUI", "../fonts/SegoeUIRegular/SegoeUIRegular", 400);
+@include font-face("GoogleSans", "../fonts/GoogleSansMedium/GoogleSansMedium", 500);
