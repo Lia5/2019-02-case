@@ -26,12 +26,14 @@ document.addEventListener('DOMContentLoaded', function(){
         nav.classList.toggle('active');
         var navGamb = document.querySelector('.menu-toggle');
         navGamb.classList.toggle('active');
+        var mainWrap = document.querySelector('.main-wrap');
+        mainWrap.classList.toggle('active');
     });
 
 
 //scrolling
-    var linkNav = document.querySelectorAll('[href^="#"]'), //выбираем все ссылки к якорю на странице
-    V = 0.25; // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
+    var linkNav = document.querySelectorAll('.footer [href^="#"]'), //выбираем все ссылки к якорю на странице
+    V = 0.5; // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
     for (var i = 0; i < linkNav.length; i++) {
     linkNav[i].addEventListener('click', function (e) { //по клику на ссылку
         e.preventDefault(); //отменяем стандартное поведение
