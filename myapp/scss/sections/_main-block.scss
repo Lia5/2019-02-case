@@ -31,6 +31,7 @@ main {
             padding-bottom: 8px;
         }
         &__value {
+            word-wrap: break-word;
             color: rgba(0, 0, 0, 0.8);
             &.invalid {
                 color: #f54d3d;
