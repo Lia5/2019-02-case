@@ -10,39 +10,92 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 18px;
+	font-family: 'SegoeUI', Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 .reg {
     display: flex;
+    &__item {
+        display: flex;
+        align-items: center;
+        padding: 20px 23px;
+        &:hover svg {
+            fill-opacity: 0.32;
+        }
+        &--text {
+            margin-right: 10px;
+        }
+        &:last-child {
+            padding-right: 0;
+        }
+ 
+    }
 }
+
 .menu-toggle {
     display: none;
+}
+.menu-wrap {
+    flex-grow: 1;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+
+    &__text {
+        font-size: 21px;
+        text-transform: uppercase;
+        font-weight: 800;
+        padding-left: 10px;
+    }
+}
+.shape {
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+}
+.note {
+    width: 32px;
+    height: 32px;
+    fill: #fff;
+}
+.cabinet {
+    width: 32px;
+    height: 32px;
+    fill: #fff;
 }
 
 /*header*/
 .header {
+    background-color: #f7f7f7;
+    padding: 28px 0 33px;;
     .wrap {
         display: flex;
         justify-content: space-between;
     }
 }
-		
-
-
-
-header {
-    padding: 47px 0 0 0;
-    display: flex;
-    flex-direction: column;
+.down {
+    width: 24px;
+    height: 22px;
+    fill: rgba(0, 0, 0, 0.32);
+    transform: rotate(90deg);
 }
+.title__text {
+    padding: 0 15px;
+}
+.controls {
+    display: flex;
+}
+
 
 
 
 .toggle-menu {
     display: none;
 }
-.cross {
-    display: none;
-}
+
 .main-menu {
 
     ul {
@@ -50,7 +103,10 @@ header {
     }
     a  {
         display: block;
-        padding: 20px 30px;
+        padding: 30px 24px;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.08);
+        }
     }
 
 }

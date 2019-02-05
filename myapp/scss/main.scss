@@ -90,30 +90,38 @@ ul,li {
 	font-size: 10px;
 	letter-spacing: 4px;
 }
-.subtitle {
-	// font-family: $title-font;
-	text-transform: uppercase;
-	font-size: 12px;
-	letter-spacing: 12px;
-	color: #000;
-}
 .title {
+	display: flex;
+	align-items: center;
 	font-family: 'SegoeUI', Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 30px;
 	color: #000;
 }
+.subtitle {
+	width: 100%;
+	font-family: 'SegoeUI', Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.8);
+	margin-bottom: 34px;
+}
+
 .btn {
 	position: relative;
 	display: inline-block;
 	color: rgba(0, 0, 0, 0.64);
-	padding: 13px 24px;
+	padding: 14px 29px;
 	transition: 0.5s;
 	cursor: pointer;
 	background: transparent;
 	border-radius: 2px;
 	border: 1px solid rgba(0, 0, 0, 0.16);
-    text-align: center;
+	text-align: center;
+	margin-right: 9px;
+	&:last-child {
+		margin-right: 0;
+	}
 	
 	&:hover {
 		background-color: #009688;
@@ -133,6 +141,7 @@ ul,li {
 }
 
 @import "sections/header"; 
+@import "sections/main-block"; 
 
 @import "sections/footer"; 
 

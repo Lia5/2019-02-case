@@ -14,11 +14,13 @@
       <header>
         <nav>
           <div class="wrap">
-            <div class="nav">
-              <div class="logo">
-                <div class="logo__icon"></div>
-                <div class="logo__text">Castle</div>
-              </div>
+            <div class="nav"><a href="#" class="logo">
+                <div class="logo__icon">
+                  <svg class="shape">
+                    <use xlink:href="img/icons/shape.svg#shape"> </use>
+                  </svg>
+                </div>
+                <div class="logo__text">Castle</div></a>
               <div class="menu-wrap">
                 <div class="menu-toggle"> 
                   <div class="one"></div>
@@ -33,19 +35,30 @@
                   </ul>
                 </nav>
               </div>
-              <div class="reg">
-                <div class="reg__notification">Notification</div>
-                <div class="login"> 
-                  <div class="login__text">Account</div>
-                  <div class="login__icon"></div>
-                </div>
-              </div>
+              <div class="reg"><a href="#" class="reg__item"> 
+                  <div class="reg__item--text">Notification</div>
+                  <svg class="note">
+                    <use xlink:href="img/icons/note.svg#note"> </use>
+                  </svg></a><a href="#" class="reg__item login"> 
+                  <div class="reg__item--text">Account</div>
+                  <div class="login__icon">
+                    <svg class="cabinet">
+                      <use xlink:href="img/icons/cabinet.svg#cabinet"> </use>
+                    </svg>
+                  </div></a></div>
             </div>
           </div>
         </nav>
         <div class="header">
           <div class="wrap">
-            <div class="title">Order Details</div>
+            <div class="title"> 
+              <div class="title__icon"> 
+                <svg class="down">
+                  <use xlink:href="img/icons/down.svg#down"> </use>
+                </svg>
+              </div>
+              <div class="title__text">Order Details</div>
+            </div>
             <div class="controls">
               <div class="btn">Edit Order</div>
               <div class="btn btn--green">Respond to Order</div>
@@ -54,6 +67,85 @@
           </div>
         </div>
       </header>
+      <main>
+        <div class="wrap">
+          <div class="main">
+            <div class="main__block">
+              <div class="subtitle">Basic information</div>
+              <div class="main-item">
+                <div class="main-item__head">Status</div>
+                <div class="main-item__value">Open</div>
+              </div>
+              <div class="main-item">
+                <div class="main-item__head">Created On</div>
+                <div class="main-item__value">11/29/2018 09:44</div>
+              </div>
+              <div class="main-item main-item--double">
+                <div class="main-item__head">Unique Identifier</div>
+                <div class="main-item__value">HdhBKEK9Hv6vJ77TSthMTq</div>
+              </div>
+              <div class="main-item">
+                <div class="main-item__head">Amount</div>
+                <div class="main-item__value">1 000 </div>
+              </div>
+              <div class="main-item">
+                <div class="main-item__head">Currency</div>
+                <div class="main-item__value">USD - US Dollar</div>
+              </div>
+              <div class="main-item">
+                <div class="main-item__head">Source</div>
+                <div class="main-item__value">Vienna, Austria</div>
+              </div>
+              <div class="main-item">
+                <div class="main-item__head">Destination</div>
+                <div class="main-item__value">Hamburg, Germany</div>
+              </div>
+            </div>
+            <div class="main__block">
+              <div class="subtitle">Conditions </div>
+              <div class="main-item">
+                <div class="main-item__head">Maximum Commission</div>
+                <div class="main-item__value invalid">Not Specified</div>
+              </div>
+              <div class="main-item">
+                <div class="main-item__head">Outbound Currency</div>
+                <div class="main-item__value invalid">Not Specified</div>
+              </div>
+              <div class="main-item">
+                <div class="main-item__head">Valid Until</div>
+                <div class="main-item__value invalid">Not Specified</div>
+              </div>
+              <div class="main-item">
+                <div class="main-item__head">Partial Fulfillment</div>
+                <div class="main-item__value invalid">Not Specified </div>
+              </div>
+            </div>
+            <div class="main__block">
+              <div class="subtitle">Ovner</div>
+              <div class="main-item">
+                <div class="main-item__head">Unique Identifier</div>
+                <div class="main-item__value">8HEFmRNpEkUSkXcpnuEtwm</div>
+              </div>
+              <div class="main-item">
+                <div class="main-item__head">Created On</div>
+                <div class="main-item__value">11/29/2018 09:44</div>
+              </div>
+              <div class="main-item main-item--double">
+                <div class="main-item__head">Comment</div>
+                <div class="main-item__value">Moreover the striking, brilliant and vivid colors are the reason why we are attracted to the posters that we see.</div>
+              </div>
+              <div class="main-item">
+                <div class="main-item__head">Name</div>
+                <div class="main-item__value">Richard Lloyd</div>
+              </div>
+              <div class="main-item">
+                <div class="main-item__head">Mobile Phone</div>
+                <div class="main-item__value">+62 111 003 232</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
       <footer class="footer">
         <div class="wrap">
           <div class="footer__left">

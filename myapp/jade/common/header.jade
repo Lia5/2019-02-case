@@ -2,8 +2,10 @@ header
 	nav
 		.wrap
 			.nav
-				.logo
+				a(href="#").logo
 					.logo__icon
+						svg.shape
+							use(xlink:href='img/icons/shape.svg#shape') 
 					.logo__text Castle
 				.menu-wrap
 					.menu-toggle 
@@ -20,16 +22,23 @@ header
 							li
 								a(href="#") Users
 				.reg
-					.reg__notification Notification
-					.login 
-						.login__text Account
+					a(href="#").reg__item 
+						.reg__item--text Notification
+						svg.note
+							use(xlink:href='img/icons/note.svg#note') 
+					a(href="#").reg__item.login 
+						.reg__item--text Account
 						.login__icon
-						
-
-
+							svg.cabinet
+								use(xlink:href='img/icons/cabinet.svg#cabinet') 
 	.header
 		.wrap
-			.title Order Details
+			.title 
+				.title__icon 
+					svg.down
+						use(xlink:href='img/icons/down.svg#down') 
+
+				.title__text Order Details
 			.controls
 				.btn Edit Order
 				.btn.btn--green Respond to Order

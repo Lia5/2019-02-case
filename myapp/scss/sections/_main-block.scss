@@ -1,0 +1,35 @@
+main {
+    background-color: #f7f7f7;
+}
+.main {
+    background-color: #fff;
+    padding: 20px 22px;
+    border-radius: 2px;
+    border: 1px solid #dfe1e6;
+    &__block {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #f7f7f7;
+        padding-bottom: 20px;
+        margin-bottom: 35px;
+    }
+    &-item {
+        width: 25%;
+        margin-bottom: 27px;
+        &--double {
+            width: 50%;
+        }
+        &__head {
+            color: rgba(0, 0, 0, 0.48);
+            padding-bottom: 8px;
+        }
+        &__value {
+            color: rgba(0, 0, 0, 0.8);
+            &.invalid {
+                color: #f54d3d;
+            }
+        }
+
+    }
+}
