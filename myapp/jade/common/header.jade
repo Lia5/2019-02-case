@@ -4,8 +4,7 @@ header#top
 			.nav
 				a(href="#").logo
 					.logo__icon
-						svg.shape
-							use(xlink:href='img/icons/shape.svg#shape') 
+						img(src="img/shape.png", alt="logo").shape
 					.logo__text Castle
 				.menu-wrap
 					.menu-toggle 
@@ -24,26 +23,22 @@ header#top
 				.reg
 					a(href="#").reg__item 
 						.reg__item--text Notification
-						svg.note
-							use(xlink:href='img/icons/note.svg#note') 
+						img(src="img/note.png", alt="logo").note
 					a(href="#").reg__item.login 
 						.reg__item--text Account
 						.login__icon
-							svg.cabinet
-								use(xlink:href='img/icons/cabinet.svg#cabinet') 
+							img(src="img/cabinet.png", alt="logo").cabinet
+							
 	.header
 		.wrap
 			a(href="#").title 
 				.title__icon 
-					svg.down
-						use(xlink:href='img/icons/down.svg#down') 
-
+					img(src="img/down.png", alt="logo").down
 				.title__text Order Details
 			.controls
 				.btn.btn--small 
 					.btn__icon
-						svg.eddit
-							use(xlink:href='img/icons/eddit.svg#eddit')
+						img(src="img/eddit.png", alt="logo").eddit
 					.btn--text Edit Order
 				.btn.btn--green Respond to Order
 				.btn.btn--green Create Transaction

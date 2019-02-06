@@ -85,18 +85,35 @@
 
 }
 @media only screen and (max-width: 780px) {
-    .header .wrap {
-        flex-wrap: wrap;
+    .footer, .header {
+        padding-left: 10px;
+        padding-right: 10px;
     }
-    .controls {
-        margin-top: 20px;;
+    .btn {
+        padding: 9px 9px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .title__text {
+        padding: 0 9px;
+    }
+    .header .wrap {
+        align-items: center;
+    }
+    .down {
+        vertical-align: middle;
     }
 }
 
 @media only screen and (max-width: 560px) {
+    .header .wrap {
+        flex-wrap: wrap;
+
+    }
     .btn {
         font-size: 12px;
-        padding: 12px;
+        padding: 10px;
     }
     .reg__item--text {
         display: none;
@@ -165,6 +182,10 @@
     }
     .controls {
         margin-top: 15px;
+        width: 100%;
+    }
+    .btn--green {
+        flex-grow: 1;
     }
     /*main*/
     .main {
